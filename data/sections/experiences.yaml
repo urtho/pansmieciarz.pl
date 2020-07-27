@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  hideTitle: true
+
+experiences:
+- item:
+    title: Przykładowa sesja
+    youtube: https://www.youtube.com/embed/CFHQXYBXlAE
+
+- item:
+    title: Akcja w katalogu
+    image: /assets/images/pansmieciaz_directory.png
+    link: https://assistant.google.com/services/a/uid/000000e4bb2ae945?hl=pl&source=web
+
+- item:
+    title: Zapytaj teraz
+    iframe: https://console.dialogflow.com/api-client/demo/embedded/061220b1-ee2a-48b0-a282-a5306b46e1bf
+
+- item:
+    title: Historia
+    image: /assets/images/changelog.png
+    link: https://docs.google.com/document/d/1tySfkSvTtJ_YV7XK07LNlfgLPqr9CD_CICZgVGH6S-A/edit?rm=minimal
+    
+- item:
+    title: Statystyki
+    image: /assets/images/stats.png
+    link: https://datastudio.google.com/u/0/reporting/1sNlcI7Uqu52qzSxaxzHmNB3NJT-31QuU/page/3MEm
+    

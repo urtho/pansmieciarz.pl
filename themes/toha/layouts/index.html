@@ -29,7 +29,7 @@
 
     <!--- ADD OPTIONAL SECTIONS ----------->
     {{ if .Site.Data.sections }}
-      {{ $background:= "bg-white"}}
+      {{ $background:= "bg-dimmed"}}
       {{ range sort .Site.Data.sections "section.weight" }}
         {{ if .section.enable }}
           <div class="container-fluid section-holder d-flex {{ $background }}">

@@ -1,9 +1,10 @@
 # section information
 section:
-  name: "omnie"
+  name: About
   enable: true
   weight: 1
   showOnNavbar: true
+  hideTitle: true
 
 # your designation
 designation: Action
