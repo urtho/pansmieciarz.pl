@@ -1,0 +1,4 @@
+baseURL = "https://pansmieciarz.pl/"
+languageCode = "pl-pl"
+title = "Pan Śmieciarz"
+theme = "toha"
