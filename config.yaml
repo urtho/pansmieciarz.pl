@@ -1,0 +1,73 @@
+baseURL: https://pansmieciarz.pl/
+languageCode: pl-pl
+title: "Pan Śmieciarz"
+theme: "toha"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable Google Analytics
+googleAnalytics: UA-112694-15
+
+# Enable Disqus forum
+disqusShortname: does-not-exist
+
+# Enable global emoji support
+enableEmoji: true
+
+# Custom parameters
+params:
+  # copyright
+  copyright: © 2020 Copyright Urtho NS
+
+  # background image of the landing page
+  background: "/assets/images/default-background.jpg"
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will be default to the theme logos if not provided.
+  logo:
+    main: /assets/images/pslogo.png
+    inverted: /assets/images/pslogo.png
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/urtho/pansmieciarz.pl
+
+  # specify whether you want to write blog post or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  customMenus:
+  - name: 3D Projector
+    url: https://wmapi.pansmieciarz.pl/projector/
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false
+
+  # some information about you
+  author:
+    name: "Pan Śmieciarz"
+    nickname: "Urtho"
+    image: "/assets/images/pslogo.png"
+    # give your some contact information. they will be used in the footer
+    contactInfo:
+      email: "invalid@data.pl"
+      telefon: "+48884209236"
+    # a summary of what you do
+    summary:
+    - Podpowiadam jak segregować odpady.
+    - Gdzie wyrzucić ogryzek od jabłka ?
+    - A brudne skarpetki ?

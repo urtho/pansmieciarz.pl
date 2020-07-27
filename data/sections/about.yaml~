@@ -1,0 +1,62 @@
+# section information
+section:
+  name: "omnie"
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Action
+# your company information
+company:
+  name: "on Google"
+  url: "https://assistant.google.com/services/a/uid/000000e4bb2ae945?hl=pl&source=web"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Aplikacja pomagająca w trafnym segregowaniu odpadów. Pan Śmieciarz jest sztuczną inteligencją wyedukowaną w zasadach segregowania odpadów komunalnych. Wystarczy uruchomić na swoim telefonie z systemem operacyjnym Android Asystenta Google w języku polskim. Następnie powiedzieć do telefonu komendę „Ok Google, porozmawiaj z panem śmieciarzem” i już można rozmawiać o segregacji odpadów.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "invalid@data.pl"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://wmapi.pansmieciarz.pl/projector/"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/company/37229043"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Zmieszane
+  percentage: 100
+  color: black
+- name: Plastik i metal
+  percentage: 100
+  color: yellow
+- name: Kompost
+  percentage: 100
+  color: "#8B4513"
+- name: Szkło
+  percentage: 100
+  color: green
+- name: Papier
+  percentage: 100
+  color: blue
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
+
