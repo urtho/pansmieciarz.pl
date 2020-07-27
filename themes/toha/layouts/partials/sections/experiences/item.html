@@ -2,6 +2,19 @@
     <div class="experience-entry-heading">
         <!-- For single position, give emphasis on the designation-->
         <h5>{{ .item.title }}</h5>
+        {{ if isset .item "link" }}
         <a href="{{ .item.link }}"><img src="{{ .item.image }}"/></a>
+        {{ end }}
+        {{ with .item.youtube }}
+        <div style="position: relative; height: {{.h}}; overflow: hidden;">
+          <iframe width="{{.w}}" height="{{.h}}" src="https://www.youtube.com/embed/{{.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        {{ end }}
+        {{ with .item.iframe }}
+        <div style="position: relative; height: {{.h}}; overflow: hidden;">
+          <iframe width="{{.w}}" height="{{.h}}" src="{{.link}}" frameborder="0"></iframe>
+        </div>
+        {{ end }}
     </div>
 </div>
+

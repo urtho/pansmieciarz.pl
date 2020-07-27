@@ -10,7 +10,11 @@ section:
 experiences:
 - item:
     title: Przykładowa sesja
-    youtube: https://www.youtube.com/embed/CFHQXYBXlAE
+    youtube: 
+      link: CFHQXYBXlAE
+      w: 435
+      h: 651
+    
 
 - item:
     title: Akcja w katalogu
@@ -19,7 +23,10 @@ experiences:
 
 - item:
     title: Zapytaj teraz
-    iframe: https://console.dialogflow.com/api-client/demo/embedded/061220b1-ee2a-48b0-a282-a5306b46e1bf
+    iframe: 
+      link: https://console.dialogflow.com/api-client/demo/embedded/061220b1-ee2a-48b0-a282-a5306b46e1bf
+      w: 620
+      h: 455
 
 - item:
     title: Historia
